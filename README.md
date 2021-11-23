@@ -1,3 +1,5 @@
+Check it out here! http://myportfolio-env.eba-bcr4cz5e.eu-west-2.elasticbeanstalk.com/index.html
+
 # portfolio
 
 I created this portfolio using HTML, CSS and JavaScript. It features several sections such as 'My work', 'My services' and 'About me'. 
