@@ -70,26 +70,56 @@
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
         <div class="service">
-          <h3></h3>
-          <p></p>
+          <h3>• Python, HTML, CSS, Jinja2</h3>
+          <p>
+            • Developed a fully dynamic website where users can create a custom
+            profile which is saved to a database using Flask and SQLAlchemy.
+            Saves and displays on a web page details such as a profile picture,
+            name, email and location. Designed presentable and good looking
+            forms using Flask, HTML and Jinja2. Inserted a ‘number guessing
+            game’ in which users can compete with each other. Their statistics
+            such as their wins, draws and losses are update after each contest
+            and displayed in a league table.
+          </p>
         </div>
         <!-- / service -->
 
         <div class="service">
-          <h3></h3>
-          <p></p>
+          <h3>• JavaScript</h3>
+          <p>
+            • Spent hours working on the fundamentals of JavaScript. Transferred
+            the core skills I have learned from Python and becoming accustomed
+            to the differing syntax and inbuilt functions in JavaScript.
+            Experience in Object Oriented Programming and the importance and
+            functionality of encapsulation.
+          </p>
         </div>
         <!-- / service -->
 
         <div class="service">
-          <h3></h3>
-          <p></p>
+          <h3>• AWS</h3>
+          <p>
+            • Experience using Elastic Beanstalk and various other services on
+            AWS to host my own website and make it available to the public.
+            Knowledge of how to use EC2 instances to control traffic flow to
+            websites in the most cost effective and performance enhancing
+            manner.
+          </p>
         </div>
         <!-- / service -->
+        <div class="service">
+          <h3>• SQL</h3>
+          <p>
+            • Experience in creating tables in databases using SQL Alchemy and
+            Flask. I am able to display, update, delete and manipulate the data
+            from the tables and I am able to save data entered by a user in a
+            HTML form on a web page into a SQL database
+          </p>
+        </div>
       </div>
       <!-- / services-->
 
-      <a href="work" class="btn">My Work</a>
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!-- About Me -->
@@ -98,15 +128,38 @@
       <p class="section__subtitle section__subtitle--about"></p>
 
       <div class="about-me__body">
-        <p></p>
-        <p></p>
+        <p>
+          I am an aspiring software developer, I am looking for a role as a
+          level 3 or 4 software development technician apprentice. I want to
+          become an apprentice because I am passionate about programming and IT,
+          I believe I have all the qualities required to succeed in this role
+          and it is a subject I immensely enjoy and get satisfaction from. I
+          found inspiration to begin a career in IT in the summer of 2020 and
+          began to teach myself how to program.
+        </p>
+        <p>
+          I quickly discovered that there are endless possibilities of what you
+          can create and achieve in software development and my enjoyment for
+          the subject grows every day along with my knowledge in the field. I
+          enjoy front end and back end programming whether it is working with
+          Python and SQL databases or designing stylish websites and forms using
+          HTML and CSS. Python was the first language I learned with the help of
+          books and online resources and since then I have added skills in HTML,
+          CSS and JavaScript.
+        </p>
+        <p>
+          I have a massive interest in a variety of sports, such as boxing,
+          football and F1. I enjoy the outdoors and going for nature walks. I
+          enjoy socialising and spending time with friends. I also enjoy gaming
+          and technology.
+        </p>
       </div>
 
       <img src="/img/marcus.png" alt="" class="about-me__img" />
     </section>
 
     <!-- My Work -->
-    <section class="my-work">
+    <section class="my-work" id="work">
       <h2 class="section__title section__title--work">My Work</h2>
       <p class="section__subtitle section__subtitle--work">
         A selection of my range of work
@@ -114,20 +167,15 @@
 
       <div class="portfolio">
         <!-- portfolio item 01 -->
-        <a href="#" class="portfolio__item">
-          <img src="" alt="" class="portfolio__img" />
+        <a href="qpr.html" class="portfolio__item">
+          <img src="img/countuptimer.png" alt="" class="portfolio__img" />
         </a>
         <!-- portfolio item 02 -->
-        <a href="#" class="portfolio__item">
-          <img src="" alt="" class="portfolio__img" />
-        </a>
-        <!-- portfolio item 03 -->
-        <a href="#" class="portfolio__item">
-          <img src="" alt="" class="portfolio__img" />
-        </a>
-        <!-- portfolio item 04 -->
-        <a href="#" class="portfolio__item">
-          <img src="" alt="" class="portfolio__img" />
+        <a
+          href="http://fightclub-env-1.eba-ippz5yfc.eu-west-2.elasticbeanstalk.com/"
+          class="portfolio__item"
+        >
+          <img src="/img/fightclub1.png" alt="" class="portfolio__img" />
         </a>
       </div>
     </section>
@@ -152,13 +200,16 @@
           ></a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/Marcus_Holder1"
+          >
             <i class="fab fa-twitter"></i
           ></a>
         </li>
       </ul>
     </footer>
 
-    <script src="js/index.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
